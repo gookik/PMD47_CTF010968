@@ -9,15 +9,15 @@
 <body>
     <script>
         let user = prompt("Who are you?")
-        if (user = "") {
+        if (user === "") {
             alert("Cancel")
-        } else if (user != "Admin") {
+        } else if (user !== "Admin") {
             alert("I don't know you")
         } else {
             let password = prompt("Please enter password")
-            if (password = "") {
+            if (password === "") {
                 alert("Cancel")
-            } else if (password != "codecamp#5") {
+            } else if (password !== "codecamp#5") {
                 alert("Wrong password")
             } else {
                 alert("You're welcomes")
