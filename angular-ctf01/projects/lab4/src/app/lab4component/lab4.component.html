@@ -1,3 +1,6 @@
-<div>
-    <h2>Home Component work !</h2>
-</div>
+<ul>
+    <li *ngFor="let item of items">
+    <span *ngIf="item !== 11">{{ item }}</span>
+    <b *ngIf="item === 5">{{ item }}</b>
+    </li>
+</ul>
