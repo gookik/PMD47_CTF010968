@@ -1,7 +1,8 @@
 import { Component, Input } from '@angular/core';
 @Component({
 selector: 'app-lab4component',
-templateUrl: './lab4.component.html'
+templateUrl: './lab4.component.html',
+styleUrls: ['./lab4.component.css']
 })
 export class Lab4Component {
     

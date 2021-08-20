@@ -5,3 +5,7 @@
 .number-odd {
     color: red;
 }
+
+.number-even, .number-odd {
+    padding: 0px 20px;
+}
