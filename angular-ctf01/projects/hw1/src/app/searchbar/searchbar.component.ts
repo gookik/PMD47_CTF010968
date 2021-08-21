@@ -4,6 +4,6 @@ selector: 'app-searchbar',
 templateUrl: './searchbar.component.html',
 styleUrls: ['./searchbar.component.css']
 })
-export class SearchbarComponent {
+export class SearchBarComponent {
 constructor() {}
 }
