@@ -4,9 +4,6 @@ selector: 'app-categorymenu',
 templateUrl: './categorymenu.component.html',
 styleUrls: ['./categorymenu.component.css']
 })
-export class CategoryMenuComponent {
-    @Input()
-    title!: string;
-    
+export class CategoryMenuComponent {    
 constructor() {}
 }
