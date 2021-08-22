@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+
 body, html {
     height: 100%;
     margin: 0;
     background-color: rgb(114, 145, 211);
     padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
