@@ -1,7 +1,6 @@
 .topnav {
     color: blue;
-  }
-
-.topnav .search-container button:hover {
-    background: #ccc;
+    border-color: blue;
+    border-style: dashed;
+    padding: 0px 0px 20px 20px;
 }
