@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { NavComponent } from './nav/nav.component';
 import { SearchBarComponent } from './searchbar/searchbar.component';
 import { CategoryMenuComponent } from './categorymenu/categorymenu.component';
+import { TopBannerComponent } from './topbanner/topbanner.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ import { CategoryMenuComponent } from './categorymenu/categorymenu.component';
     HomeComponent,
     NavComponent,
     SearchBarComponent,
-    CategoryMenuComponent],
+    CategoryMenuComponent,
+    TopBannerComponent,
+  ],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
