@@ -1,6 +1,7 @@
 .topnav {
-    color: blue;
-    border-color: blue;
+    color: white;
+    border-color: rgb(149, 228, 241);
     border-style: dashed;
     padding: 0px 0px 20px 20px;
+    background-color: lightblue;
 }

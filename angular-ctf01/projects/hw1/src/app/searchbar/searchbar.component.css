@@ -8,3 +8,10 @@
 .search-container input {
     width: 90%;
 }
+
+.search-container button {
+    color:lightseagreen;
+    background-color: cornsilk;
+    border-radius: 10%;
+    border-color: lightsteelblue;
+}

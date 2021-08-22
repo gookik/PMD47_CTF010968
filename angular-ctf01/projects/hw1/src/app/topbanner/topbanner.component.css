@@ -1,4 +1,7 @@
 .topbanner {
     border-style: dashed;
-    border-color: blueviolet;
+    border-color: rgb(245, 130, 226);
+    background-color: rgb(223, 190, 228);
+    padding: 0px 0px 0px 20px;
+    color: white;
 }
