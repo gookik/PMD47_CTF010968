@@ -1,4 +1,6 @@
-body {
-    background-color: rgb(92, 130, 212);
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(114, 145, 211);
     padding: 10px;
-}
+  }
