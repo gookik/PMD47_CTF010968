@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
-import { NavComponent } from './nav/nav.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { SearchBarComponent } from './searchbar/searchbar.component';
 import { CategoryMenuComponent } from './categorymenu/categorymenu.component';
 import { TopBannerComponent } from './topbanner/topbanner.component';
@@ -13,7 +13,7 @@ import { TopBannerComponent } from './topbanner/topbanner.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavComponent,
+    NavbarComponent,
     SearchBarComponent,
     CategoryMenuComponent,
     TopBannerComponent,
