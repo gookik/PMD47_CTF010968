@@ -4,13 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { TodoListComponent } from './todolist/todolist.component';
 @NgModule({
-  declarations: [
-    AppComponent,
-    TodoListComponent,
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, TodoListComponent],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
