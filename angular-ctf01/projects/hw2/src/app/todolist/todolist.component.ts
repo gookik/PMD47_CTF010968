@@ -5,9 +5,18 @@ templateUrl: './todolist.component.html',
 styleUrls: ['./todolist.component.css']
 })
 export class TodoListComponent {
-    add = 0;
+    public items = [];
+    public newTask;
 constructor() {}
-    addItem() {
-        this.add = this.add + 1;
+    public addToList() {
+        if (this.newTask == "") {
+        } else {
+            this.items.push(this.newTask);
+            this.newTask;
+        }
+    }
+
+    public deleteTask(index) {
+        this.items.splice(index, 1);
     }
 }

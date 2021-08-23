@@ -1,5 +1,23 @@
 <div>
     <h3>My Tasks today</h3>
-    <h2>{{ add }}</h2>
-    <button (click)="addItem()">Add</button>
+    <input [(ngModel)]="newTask"
+            type="text" 
+            value=""
+            class="input-css"
+            style="width:300px;">
+  
+    <button (click)="addItem()" 
+            class="button-css">
+            ADD TASK
+    </button>
+</div>
+
+<div *ngFor="let x of items; let index = index;" 
+            class="ngfor-css" 
+            style="height:100px;">
+    
+        <input (click)="deleteTask(index)" 
+                type="button" 
+                value="Delete" 
+                class="delete-css">
 </div>
