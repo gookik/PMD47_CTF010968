@@ -5,5 +5,9 @@ templateUrl: './todolist.component.html',
 styleUrls: ['./todolist.component.css']
 })
 export class TodoListComponent {
+    add = 0;
 constructor() {}
+    addItem() {
+        this.add = this.add + 1;
+    }
 }
