@@ -1,16 +1,17 @@
 <div>
-    <h3>My Tasks today</h3>
-    <h4>{{title}}</h4>
-    <p>Task: <input [(ngModel)] = "title"/></p>
-    <h4>{{count}}</h4>
-    <button (click)="countNumber()">Count</button>
-    
+    <h3>{{title}}</h3>
     <ul>
         <li *ngFor="let item of items">
                 <span *ngIf="item !== 5">{{ item }}</span>
                 <b *ngIf="item === 5">{{ item }}</b>
         </li>    
     </ul>
+    <b>Task: <input [(ngModel)] = "title"/></b>
+    <button (click)="countNumber()">Add</button>
+    <h4>{{count}}</h4>
+    
+    
+    
 </div>
 
 <!--<div *ngFor="let x of items; let index = index;" 
