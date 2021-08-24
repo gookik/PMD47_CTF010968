@@ -1,18 +1,19 @@
 <div>
     <h3>My Tasks today</h3>
-    <input [(ngModel)]="newTask"
-            type="text" 
-            value=""
-            class="input-css"
-            style="width:300px;">
-  
-    <button (click)="addItem()" 
-            class="button-css">
-            ADD TASK
-    </button>
+    <h4>{{title}}</h4>
+    Set Title: <input [(ngModel)] = "title"/>
+    <h4>{{count}}</h4>
+    <button (click)="countNumber()">Count</button>
+    
+    <ul>
+        <li *ngFor="let item of items">
+                <span *ngIf="item !== 5">{{ item }}</span>
+                <b *ngIf="item === 5">{{ item }}</b>
+        </li>    
+    </ul>
 </div>
 
-<div *ngFor="let x of items; let index = index;" 
+<!--<div *ngFor="let x of items; let index = index;" 
             class="ngfor-css" 
             style="height:100px;">
     
@@ -20,4 +21,4 @@
                 type="button" 
                 value="Delete" 
                 class="delete-css">
-</div>
+</div> -->
